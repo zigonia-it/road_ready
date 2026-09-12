@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "yield_01",
+  "title": "Vikepliktsskilt",
+  "learning_objective": "Velge trygg innkjøring",
+  "map_ref": "yield_01",
+  "assessment_enabled": false,
+  "review_status": "pending_source_verification",
+  "source_refs": [
+    {
+      "source": "trafikkreglene",
+      "provision": "§7",
+      "version": null,
+      "last_verified": null
+    }
+  ],
+  "lifecycle": [
+    "ready",
+    "active",
+    "completed",
+    "aborted"
+  ],
+  "metrics": [
+    "speed",
+    "waiting",
+    "actor_positions"
+  ],
+  "outcomes": [
+    "good",
+    "improve",
+    "serious",
+    "not_assessed"
+  ],
+  "geometry_status": "draft_in_docs"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "crossing_01",
+  "title": "Gangfelt",
+  "learning_objective": "Samhandle med gående",
+  "map_ref": "crossing_01",
+  "assessment_enabled": false,
+  "review_status": "rule_checked_geometry_pending",
+  "source_refs": [
+    {
+      "source": "trafikkreglene",
+      "provision": "§9 nr.2 og nr.4; §13 nr.1",
+      "version": "konsolidert, sist endret 2022-07-01",
+      "last_verified": "2026-09-12"
+    }
+  ],
+  "lifecycle": [
+    "ready",
+    "active",
+    "completed",
+    "aborted"
+  ],
+  "metrics": [
+    "speed",
+    "brake",
+    "actor_positions",
+    "collision"
+  ],
+  "outcomes": [
+    "good",
+    "improve",
+    "serious",
+    "not_assessed"
+  ],
+  "geometry_status": "draft_in_docs"
+}

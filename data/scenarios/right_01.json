@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "right_01",
+  "title": "Høyreregel",
+  "learning_objective": "Samhandle i uregulert kryss",
+  "map_ref": "right_01",
+  "assessment_enabled": false,
+  "review_status": "pending_source_verification",
+  "source_refs": [
+    {
+      "source": "trafikkreglene",
+      "provision": "§7",
+      "version": null,
+      "last_verified": null
+    }
+  ],
+  "lifecycle": [
+    "ready",
+    "active",
+    "completed",
+    "aborted"
+  ],
+  "metrics": [
+    "speed",
+    "conflict_entry",
+    "actor_positions"
+  ],
+  "outcomes": [
+    "good",
+    "improve",
+    "serious",
+    "not_assessed"
+  ],
+  "geometry_status": "draft_in_docs"
+}

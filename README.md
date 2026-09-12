@@ -1,4 +1,6 @@
-# RoadReady
+# Kjøremester
+![Road Ready/ Kjøremester – konseptillustrasjon](assets/logo/logo-full-no.png)
+
 
 Første tekniske kjøreprototype i Godot **4.7.2.stable.official.ed1daf0bf**.
 
